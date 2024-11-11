@@ -5,7 +5,7 @@ import os
 import uuid
 from fake_useragent import UserAgent
 from loguru import logger
-
+os.system("clear")
 banner = """\033[36m
 ███╗   ██╗ ██████╗ ██████╗ ███████╗██████╗  █████╗ ██╗   ██╗
 ████╗  ██║██╔═══██╗██╔══██╗██╔════╝██╔══██╗██╔══██╗╚██╗ ██╔╝
@@ -17,8 +17,9 @@ banner = """\033[36m
                   Author : Sahal Pramudya
 --------------------------------------------------------------"""
 print(banner)
-
 np_token = input("Masukkan NP_Token : ")#"eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIxMzAyMzI1NDI2MjAyMzQ1NDcyIiwiaWF0IjoxNzMxMTAzOTYxLCJleHAiOjE3MzIzMTM1NjF9.p1Q4XDnlrvpVJ7W8IB2z7Mvt5ZUvm5gbFUVZZFm_dBtvUHofbFwo42_srpgfxRNkOBhVZk8J-sD9DXyT7B4HLw"
+os.system("clear")
+print(banner)
 user_agent = UserAgent().random
 url = {
     "user_reward": "https://api.nodepay.org/api/mission/user-reward"
